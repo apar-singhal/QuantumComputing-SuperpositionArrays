@@ -1,3 +1,4 @@
-ssh blueteam@10.0.26.19 <<EOF
-ruocIdoEnia ptepnnos yM Lg d CLS/eLrb,mch/iglos-r3SiaSiealdtcnt(or Soatr4ta\/uPCfoaTe,YehreChtnjno
-EOF
+## Description
+
+I am adding sme scripts that we used in a cyber defence competition.
+These scripts help to quickly and safely change the passwords, logging into different servers, monitoring the instances, etc.

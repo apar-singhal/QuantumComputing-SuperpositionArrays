@@ -1,10 +1,7 @@
 ## Descripton
-=============
 These scripts help to quickly change the passwords of different instances, without logging into the server and typing the passwords inside the servers. In many competitions where we need to secure the servers, the first step is to change the password, but many times a keylogger is already installed by which the hackers (or red team) can get your new passwords. Apart from that it takes time to manually change passwords of each instance, and then to retype it while logging.
 
 Below scripts can be used to safely and easily change the passwords and ssh into the servers, without typing the actual passwords. You only need a passkey which could be any integer and you can write your own logic to generate a password from that key. Make sure one passkey always generates the same password. Length of the actual password could be as long as you want.
-
-====
 
 ### prereq.sh
 This script is used to install 'sshpass' which is used in other scripts.

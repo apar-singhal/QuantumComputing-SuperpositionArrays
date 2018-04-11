@@ -40,10 +40,7 @@ do
   addr=$( getAddr $server )
   echo $addr
   echo "$addr $new_pswd" >> pswdlogs.txt
-  if [[ $server != abc ]];
-  then 
    sshpass -p "$old_pswd" scp ./ctp.sh $addr:/home/blueteam/.
    sshpass -p "$old_pswd" ssh -o StrictHostKeyChecking=no $addr "chmod 755 /home/blueteam/ctp.sh"
    sshpass -p "$old_pswd" ssh -o StrictHostKeyChecking=no $addr "/home/blueteam/ctp.sh"
-  fi
 done
